@@ -1,18 +1,25 @@
-.head{
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.head {
     background: rgba(255, 144, 14, 0.1);
     width: 1920px;
-height: 1322px;
+    height: 1322px;
 }
-.nav{
+
+.nav {
     display: flex;
     gap: 673px;
 }
-.logo{
+
+.logo {
     font-size: 45px;
     margin-top: 2px;
     margin-left: 228px;
 }
-.nav-bar{
+
+.nav-bar {
     font-size: 18px;
     display: flex;
     color: #424242;
@@ -20,30 +27,106 @@ height: 1322px;
     margin-top: 75px;
     margin-right: 217px;
 }
-.heading{
+
+.heading {
     text-align: center;
 }
-.heading-title{
+
+.heading-title {
     font-size: 64px;
     color: #131313;
 }
-.heading-pragrap{
+
+.heading-pragrap {
     color: #727272;
     font-size: 16px;
 }
-.heading-buttom{
+
+.heading-buttom {
     font-size: 20px;
     color: #FFFFFF;
-    background-color: orange;
+    background-color: #FF900E;
     margin-left: 850px;
     margin-right: 850px;
     border-radius: 8px;
     padding: 5px;
+    text-align: center;
 }
-.headin-img{
+
+.headin-img {
     margin-top: 50px;
     border-radius: 8px;
     width: 1440px;
-height: 700px;
-margin-left: 240px;
+    height: 700px;
+    margin-left: 240px;
+    margin-bottom: 95px;
+}
+/* main */
+
+.quick-list {
+    display: flex;
+    gap: 73px;
+}
+
+.quick-img {
+    display:grid;
+    grid-template-columns: repeat(2, 1fr); 
+    margin-top: 250px;
+    margin-left: 301px;
+}
+
+.quick-text {
+    margin-top: 400px;
+    margin-left: 0%;
+
+}
+
+.quick-text h2 {
+    font-size: 45px;
+
+}
+
+.quick-text p {
+    font-size: 16px;
+    
+}
+
+.quick-explore {
+    font-size: 20px;
+    color: #FFFFFF;
+    margin-right: 400px;
+    background: #FF900E;
+    border-radius: 8px;
+    padding: 15px;
+    text-align: center;
+    
+}
+
+/* features */
+.features{
+    margin:130px 240px 0px 240px;
+    display: flex;
+    gap: 100px;
+}
+.year10{
+    font-size: 50px;
+    color: #FFFFFF;
+    background: #FF900E;
+    border-radius: 8px;
+    padding:0px;
+    text-align: center;
+    margin-left: 700px;
+    margin-right:600px;
+}
+.features-head h3{
+    font-size: 45px;
+    color: #131313;
+}
+.features-dip{
+    
+    margin-left: 50px;
+}
+.features-img{
+    width: 708px;
+height: 982px;
 }
