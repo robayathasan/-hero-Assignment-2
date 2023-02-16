@@ -1,3 +1,49 @@
-h1{
-    color: red;
+.head{
+    background: rgba(255, 144, 14, 0.1);
+    width: 1920px;
+height: 1322px;
+}
+.nav{
+    display: flex;
+    gap: 673px;
+}
+.logo{
+    font-size: 45px;
+    margin-top: 2px;
+    margin-left: 228px;
+}
+.nav-bar{
+    font-size: 18px;
+    display: flex;
+    color: #424242;
+    gap: 30px;
+    margin-top: 75px;
+    margin-right: 217px;
+}
+.heading{
+    text-align: center;
+}
+.heading-title{
+    font-size: 64px;
+    color: #131313;
+}
+.heading-pragrap{
+    color: #727272;
+    font-size: 16px;
+}
+.heading-buttom{
+    font-size: 20px;
+    color: #FFFFFF;
+    background-color: orange;
+    margin-left: 850px;
+    margin-right: 850px;
+    border-radius: 8px;
+    padding: 5px;
+}
+.headin-img{
+    margin-top: 50px;
+    border-radius: 8px;
+    width: 1440px;
+height: 700px;
+margin-left: 240px;
 }
