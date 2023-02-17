@@ -105,8 +105,9 @@ body {
 
 /* features */
 .features{
-    margin:130px 240px 0px 240px;
-    display: flex;
+    margin:130px 50px 0px 50px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     gap: 100px;
 }
 .year10{
@@ -116,8 +117,9 @@ body {
     border-radius: 8px;
     padding:0px;
     text-align: center;
-    margin-left: 700px;
-    margin-right:600px;
+    margin: 0%;
+    /* margin-left: 700px;
+    margin-right:600px; */
 }
 .features-head h3{
     font-size: 45px;
@@ -126,6 +128,7 @@ body {
 .features-dip{
     
     margin-left: 50px;
+    box-shadow: 0px -5px 10px 0px rgba(0, 0, 0, 0.5);
 }
 .features-img{
     width: 708px;
@@ -187,4 +190,27 @@ border-radius: 8px;
 font-size: 20px;
 text-align: center;
 color: #424242;
+}
+@media  screen and (max-width:676px) {
+    .container{
+        width: 100%;
+    }
+    .logo {
+        
+        font-size: 35px;
+        margin: 0%;
+
+    }
+    .nav{
+        display: grid;
+        grid-template-rows: repeat(1, 1fr);
+        margin: 0%;
+    }
+    .head, .main, .features, .year10,.Some-Facts,.our-sponspor, .sponspors-img{
+        display: flex;
+        flex-direction: column;
+    }
+    .main, .features, .year10,.Some-Facts,.our-sponspor, .sponspors-img,.footer{
+        display: none;
+    }
 }
